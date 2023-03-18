@@ -6,8 +6,8 @@ import db from '../dexie'
 const Bio = ()=>{
 
     const [userDetails, setUserDetails] = useState({
-        name : ' ',
-        about:' '
+        name : 'Deepak',
+        about:'🇺🇸 UTD `23'
     })  
 
     const [editFormisOpen,setEditFromIsOpen] = useState(false)
